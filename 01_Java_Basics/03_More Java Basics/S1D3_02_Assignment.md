@@ -16,10 +16,7 @@ Write a Java program that:
 
 4. Store the age using a **wrapper class** (`Integer`) and print it.
 
-5. Add a variable called `nickname` and set it to `null`.  
-   Print a message if the nickname is `null`.
-
-6. Add at least **two single-line comments** and **one multi-line comment** in your code.
+5. Add at least **two single-line comments** and **one multi-line comment** in your code.
 
 ---
 
