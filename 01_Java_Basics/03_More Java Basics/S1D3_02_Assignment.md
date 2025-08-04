@@ -60,3 +60,45 @@ Answer the following after completing your code:
 3. What’s the difference between implicit and explicit casting?
 
 Submit your `.java` file and answers to the reflection questions.
+
+
+## Starter Code
+
+```(java)
+import java.util.Scanner;
+
+public class Bio {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = input.nextLine();
+
+        // TODO: prompt for the age.
+        // TODO: use input.nextInt() to start age.
+
+        // TODO: prompt for GPA.
+        double gpa = input.nextDouble();
+
+        System.out.println("Name: " + name);
+        // TODO: repeat for age
+        // TODO: repeate for gpa.
+
+        int gpaTruncated = (int) gpa;
+
+        Integer gpaTruncatedWrapper = gpaTruncated;
+        
+        // I am 
+        // now done
+        
+        /*
+        With the 
+        assignment.  
+         */
+    }
+
+}
+
+
+```
