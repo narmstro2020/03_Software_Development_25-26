@@ -27,7 +27,7 @@ if (isRaining && hasUmbrella) {
 | Operator | Name  | Description                             | Example                     | Result |
 |----------|--------|-----------------------------------------|-----------------------------|--------|
 | `&&`     | AND   | true if both operands are true          | `true && false`             | false  |
-| `||`     | OR    | true if at least one operand is true    | `true || false`             | true   |
+| "||"     | OR    | true if at least one operand is true    | `true || false`             | true   |
 | `!`      | NOT   | inverts the boolean value               | `!true`                     | false  |
 
 **Example:**
