@@ -30,7 +30,9 @@ if (isRaining && hasUmbrella) {
 | see after table    | OR    | true if at least one operand is true    | `true || false`             | true   |
 | `!`      | NOT   | inverts the boolean value               | `!true`                     | false  |
 
-    or  ||
+    or  ||  true || false = true
+
+
 
 **Example:**
 ```java
