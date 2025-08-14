@@ -24,13 +24,13 @@ if (isRaining && hasUmbrella) {
 
 ## ⚙️ 2. Boolean Operators
 
-| Operator | Name  | Description                             | Example                     | Result |
-|----------|--------|-----------------------------------------|-----------------------------|--------|
-| `&&`     | AND   | true if both operands are true          | `true && false`             | false  |
-| see after table    | OR    | true if at least one operand is true    | `true || false`             | true   |
-| `!`      | NOT   | inverts the boolean value               | `!true`                     | false  |
+| Operator     | Name  | Description                             | Example                    | Result |
+|--------------|--------|-----------------------------------------|----------------------------|--------|
+| `&&`         | AND   | true if both operands are true          | `true && false`            | false  |
+| &vert;&vert; | OR    | true if at least one operand is true    | true  &vert;&vert; false | true   |
+| `!`          | NOT   | inverts the boolean value               | `!true`                    | false  |
 
-    or  ||  true || false = true
+
 
 
 
@@ -96,7 +96,7 @@ Operate on the bit level.
 | Operator | Description                  |
 |----------|------------------------------|
 | `&`      | Bitwise AND                  |
-| `|`      | Bitwise OR                   |
+| &#124;  | Bitwise OR                   |
 | `^`      | Bitwise XOR                  |
 | `~`      | Bitwise Complement           |
 | `<<`     | Left shift                   |
