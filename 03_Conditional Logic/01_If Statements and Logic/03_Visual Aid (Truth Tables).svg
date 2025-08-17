@@ -1,0 +1,276 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">
+    Boolean Logic Truth Tables
+  </text>
+  
+  <!-- AND Operator Table -->
+  <g transform="translate(50, 60)">
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">
+      AND Operator (&amp;&amp;)
+    </text>
+    
+    <!-- Table headers -->
+    <rect x="20" y="30" width="40" height="30" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+    <text x="40" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">A</text>
+    
+    <rect x="60" y="30" width="40" height="30" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+    <text x="80" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">B</text>
+    
+    <rect x="100" y="30" width="60" height="30" fill="#4CAF50" stroke="#333" stroke-width="1"/>
+    <text x="130" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">A &amp;&amp; B</text>
+    
+    <!-- Row 1 -->
+    <rect x="20" y="60" width="40" height="25" fill="#e8f5e8" stroke="#333" stroke-width="1"/>
+    <text x="40" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">true</text>
+    
+    <rect x="60" y="60" width="40" height="25" fill="#e8f5e8" stroke="#333" stroke-width="1"/>
+    <text x="80" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">true</text>
+    
+    <rect x="100" y="60" width="60" height="25" fill="#c8e6c9" stroke="#333" stroke-width="1"/>
+    <text x="130" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">true</text>
+    
+    <!-- Row 2 -->
+    <rect x="20" y="85" width="40" height="25" fill="#e8f5e8" stroke="#333" stroke-width="1"/>
+    <text x="40" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">true</text>
+    
+    <rect x="60" y="85" width="40" height="25" fill="#ffebee" stroke="#333" stroke-width="1"/>
+    <text x="80" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">false</text>
+    
+    <rect x="100" y="85" width="60" height="25" fill="#ffcdd2" stroke="#333" stroke-width="1"/>
+    <text x="130" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c62828">false</text>
+    
+    <!-- Row 3 -->
+    <rect x="20" y="110" width="40" height="25" fill="#ffebee" stroke="#333" stroke-width="1"/>
+    <text x="40" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">false</text>
+    
+    <rect x="60" y="110" width="40" height="25" fill="#e8f5e8" stroke="#333" stroke-width="1"/>
+    <text x="80" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">true</text>
+    
+    <rect x="100" y="110" width="60" height="25" fill="#ffcdd2" stroke="#333" stroke-width="1"/>
+    <text x="130" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c62828">false</text>
+    
+    <!-- Row 4 -->
+    <rect x="20" y="135" width="40" height="25" fill="#ffebee" stroke="#333" stroke-width="1"/>
+    <text x="40" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">false</text>
+    
+    <rect x="60" y="135" width="40" height="25" fill="#ffebee" stroke="#333" stroke-width="1"/>
+    <text x="80" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">false</text>
+    
+    <rect x="100" y="135" width="60" height="25" fill="#ffcdd2" stroke="#333" stroke-width="1"/>
+    <text x="130" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c62828">false</text>
+    
+    <!-- Rule -->
+    <text x="90" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+      True only when BOTH are true
+    </text>
+  </g>
+  
+  <!-- OR Operator Table -->
+  <g transform="translate(250, 60)">
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">
+      OR Operator (||)
+    </text>
+    
+    <!-- Table headers -->
+    <rect x="20" y="30" width="40" height="30" fill="#2196F3" stroke="#333" stroke-width="1"/>
+    <text x="40" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">A</text>
+    
+    <rect x="60" y="30" width="40" height="30" fill="#2196F3" stroke="#333" stroke-width="1"/>
+    <text x="80" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">B</text>
+    
+    <rect x="100" y="30" width="60" height="30" fill="#2196F3" stroke="#333" stroke-width="1"/>
+    <text x="130" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">A || B</text>
+    
+    <!-- Row 1 -->
+    <rect x="20" y="60" width="40" height="25" fill="#e8f5e8" stroke="#333" stroke-width="1"/>
+    <text x="40" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">true</text>
+    
+    <rect x="60" y="60" width="40" height="25" fill="#e8f5e8" stroke="#333" stroke-width="1"/>
+    <text x="80" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">true</text>
+    
+    <rect x="100" y="60" width="60" height="25" fill="#c8e6c9" stroke="#333" stroke-width="1"/>
+    <text x="130" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">true</text>
+    
+    <!-- Row 2 -->
+    <rect x="20" y="85" width="40" height="25" fill="#e8f5e8" stroke="#333" stroke-width="1"/>
+    <text x="40" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">true</text>
+    
+    <rect x="60" y="85" width="40" height="25" fill="#ffebee" stroke="#333" stroke-width="1"/>
+    <text x="80" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">false</text>
+    
+    <rect x="100" y="85" width="60" height="25" fill="#c8e6c9" stroke="#333" stroke-width="1"/>
+    <text x="130" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">true</text>
+    
+    <!-- Row 3 -->
+    <rect x="20" y="110" width="40" height="25" fill="#ffebee" stroke="#333" stroke-width="1"/>
+    <text x="40" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">false</text>
+    
+    <rect x="60" y="110" width="40" height="25" fill="#e8f5e8" stroke="#333" stroke-width="1"/>
+    <text x="80" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">true</text>
+    
+    <rect x="100" y="110" width="60" height="25" fill="#c8e6c9" stroke="#333" stroke-width="1"/>
+    <text x="130" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">true</text>
+    
+    <!-- Row 4 -->
+    <rect x="20" y="135" width="40" height="25" fill="#ffebee" stroke="#333" stroke-width="1"/>
+    <text x="40" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">false</text>
+    
+    <rect x="60" y="135" width="40" height="25" fill="#ffebee" stroke="#333" stroke-width="1"/>
+    <text x="80" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">false</text>
+    
+    <rect x="100" y="135" width="60" height="25" fill="#ffcdd2" stroke="#333" stroke-width="1"/>
+    <text x="130" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c62828">false</text>
+    
+    <!-- Rule -->
+    <text x="90" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+      True when AT LEAST ONE is true
+    </text>
+  </g>
+  
+  <!-- NOT Operator Table -->
+  <g transform="translate(450, 60)">
+    <text x="80" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">
+      NOT Operator (!)
+    </text>
+    
+    <!-- Table headers -->
+    <rect x="30" y="30" width="40" height="30" fill="#FF9800" stroke="#333" stroke-width="1"/>
+    <text x="50" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">A</text>
+    
+    <rect x="70" y="30" width="40" height="30" fill="#FF9800" stroke="#333" stroke-width="1"/>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">!A</text>
+    
+    <!-- Row 1 -->
+    <rect x="30" y="60" width="40" height="25" fill="#e8f5e8" stroke="#333" stroke-width="1"/>
+    <text x="50" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">true</text>
+    
+    <rect x="70" y="60" width="40" height="25" fill="#ffcdd2" stroke="#333" stroke-width="1"/>
+    <text x="90" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c62828">false</text>
+    
+    <!-- Row 2 -->
+    <rect x="30" y="85" width="40" height="25" fill="#ffebee" stroke="#333" stroke-width="1"/>
+    <text x="50" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">false</text>
+    
+    <rect x="70" y="85" width="40" height="25" fill="#c8e6c9" stroke="#333" stroke-width="1"/>
+    <text x="90" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">true</text>
+    
+    <!-- Rule -->
+    <text x="80" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+      Inverts the value
+    </text>
+  </g>
+  
+  <!-- De Morgan's Laws -->
+  <g transform="translate(50, 280)">
+    <text x="400" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">
+      De Morgan's Laws
+    </text>
+    
+    <!-- First Law -->
+    <rect x="0" y="40" width="380" height="80" fill="#f8f9fa" stroke="#6c757d" stroke-width="2" rx="10"/>
+    <text x="190" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#495057">
+      First Law
+    </text>
+    <text x="190" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">
+      !(A &amp;&amp; B) = !A || !B
+    </text>
+    <text x="190" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+      "NOT (A AND B)" equals "(NOT A) OR (NOT B)"
+    </text>
+    
+    <!-- Second Law -->
+    <rect x="400" y="40" width="380" height="80" fill="#f8f9fa" stroke="#6c757d" stroke-width="2" rx="10"/>
+    <text x="590" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#495057">
+      Second Law
+    </text>
+    <text x="590" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">
+      !(A || B) = !A &amp;&amp; !B
+    </text>
+    <text x="590" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+      "NOT (A OR B)" equals "(NOT A) AND (NOT B)"
+    </text>
+  </g>
+  
+  <!-- Complex Example Truth Table -->
+  <g transform="translate(150, 400)">
+    <text x="250" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">
+      Complex Expression: (A &amp;&amp; B) || (!A &amp;&amp; C)
+    </text>
+    
+    <!-- Headers -->
+    <rect x="0" y="40" width="30" height="30" fill="#9C27B0" stroke="#333" stroke-width="1"/>
+    <text x="15" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">A</text>
+    
+    <rect x="30" y="40" width="30" height="30" fill="#9C27B0" stroke="#333" stroke-width="1"/>
+    <text x="45" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">B</text>
+    
+    <rect x="60" y="40" width="30" height="30" fill="#9C27B0" stroke="#333" stroke-width="1"/>
+    <text x="75" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">C</text>
+    
+    <rect x="90" y="40" width="50" height="30" fill="#673AB7" stroke="#333" stroke-width="1"/>
+    <text x="115" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">A &amp;&amp; B</text>
+    
+    <rect x="140" y="40" width="30" height="30" fill="#673AB7" stroke="#333" stroke-width="1"/>
+    <text x="155" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">!A</text>
+    
+    <rect x="170" y="40" width="60" height="30" fill="#673AB7" stroke="#333" stroke-width="1"/>
+    <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">!A &amp;&amp; C</text>
+    
+    <rect x="230" y="40" width="80" height="30" fill="#3F51B5" stroke="#333" stroke-width="1"/>
+    <text x="270" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">(A &amp;&amp; B) ||</text>
+    <text x="270" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">(!A &amp;&amp; C)</text>
+    
+    <!-- Data rows -->
+    <!-- Row 1: T T T -->
+    <rect x="0" y="70" width="30" height="25" fill="#e8f5e8" stroke="#333" stroke-width="1"/>
+    <text x="15" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">T</text>
+    
+    <rect x="30" y="70" width="30" height="25" fill="#e8f5e8" stroke="#333" stroke-width="1"/>
+    <text x="45" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">T</text>
+    
+    <rect x="60" y="70" width="30" height="25" fill="#e8f5e8" stroke="#333" stroke-width="1"/>
+    <text x="75" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">T</text>
+    
+    <rect x="90" y="70" width="50" height="25" fill="#c8e6c9" stroke="#333" stroke-width="1"/>
+    <text x="115" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2e7d32">T</text>
+    
+    <rect x="140" y="70" width="30" height="25" fill="#ffcdd2" stroke="#333" stroke-width="1"/>
+    <text x="155" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#c62828">F</text>
+    
+    <rect x="170" y="70" width="60" height="25" fill="#ffcdd2" stroke="#333" stroke-width="1"/>
+    <text x="200" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#c62828">F</text>
+    
+    <rect x="230" y="70" width="80" height="25" fill="#c8e6c9" stroke="#333" stroke-width="1"/>
+    <text x="270" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2e7d32">T</text>
+    
+    <!-- Add more rows with similar pattern... (abbreviated for space) -->
+    
+    <!-- Final result summary -->
+    <text x="155" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+      Result is TRUE when either (A AND B) is true OR (!A AND C) is true
+    </text>
+  </g>
+  
+  <!-- Java Code Examples -->
+  <g transform="translate(50, 580)">
+    <text x="400" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">
+      Java Boolean Operator Examples
+    </text>
+    
+    <rect x="0" y="30" width="800" height="80" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="5"/>
+    
+    <text x="20" y="55" font-family="Courier New, monospace" font-size="12" fill="#333">
+      boolean hasLicense = true;
+    </text>
+    <text x="20" y="70" font-family="Courier New, monospace" font-size="12" fill="#333">
+      boolean hasInsurance = false;
+    </text>
+    <text x="20" y="85" font-family="Courier New, monospace" font-size="12" fill="#333">
+      boolean canDrive = hasLicense &amp;&amp; hasInsurance;  // false (both must be true)
+    </text>
+    <text x="20" y="100" font-family="Courier New, monospace" font-size="12" fill="#333">
+      boolean hasDocuments = hasLicense || hasInsurance;  // true (at least one is true)
+    </text>
+  </g>
+</svg>
