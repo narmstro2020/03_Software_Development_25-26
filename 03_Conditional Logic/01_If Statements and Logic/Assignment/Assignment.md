@@ -1,4 +1,4 @@
-# Assignment 2: Student Information System
+# Assignment: Student Information System
 
 ## Objective
 Create a Java program that processes student information and determines eligibility for various academic programs and services based on multiple criteria.
