@@ -40,21 +40,11 @@ Determine eligibility for various programs:
 - Must have 120+ credits AND
 - Must have GPA >= 2.0
 
-**Financial Aid Renewal:**
-- Must have GPA >= 2.0 AND
-- Must be making satisfactory progress (at least 12 credits per year based on age)
-
 **Scholarship Eligibility:**
 - Must have GPA >= 3.0 AND
 - Must be a resident (in-state) AND
 - Must not already have financial aid
 
-### Part 5: Recommendations
-Based on the student's information, provide recommendations:
-- If GPA < 2.0: Suggest tutoring services
-- If credits < expected for age: Suggest academic counseling
-- If eligible for scholarship but no financial aid: Recommend applying for scholarships
-- If close to graduation (100+ credits): Remind to meet with advisor
 
 ## Input/Output Examples
 
@@ -82,12 +72,8 @@ Class Level: Junior
 === ELIGIBILITY STATUS ===
 Honor Society: Eligible
 Graduation: Not Eligible (needs 45 more credits)
-Financial Aid Renewal: N/A (no current aid)
 Scholarship: Eligible
 
-=== RECOMMENDATIONS ===
-- You are eligible for scholarship programs! Consider applying.
-- Keep up the excellent work to maintain Dean's List status.
 ```
 
 ### Example 2:
@@ -114,46 +100,101 @@ Class Level: Sophomore
 === ELIGIBILITY STATUS ===
 Honor Society: Not Eligible
 Graduation: Not Eligible (needs 85 more credits)
-Financial Aid Renewal: Not Eligible (GPA too low)
 Scholarship: Not Eligible
 
-=== RECOMMENDATIONS ===
-- Your GPA is below 2.0. We strongly recommend tutoring services.
-- You may be behind on credits for your age. Consider meeting with an academic counselor.
-- Your financial aid may be at risk. Focus on improving your GPA this semester.
 ```
 
-## Requirements Checklist
-- [ ] Collect all required student information
-- [ ] Correctly classify academic standing based on GPA
-- [ ] Correctly determine class level based on credits
-- [ ] Implement all eligibility checks using proper boolean logic
-- [ ] Use if-else if statements for classifications
-- [ ] Use boolean operators (&&, ||) for complex eligibility criteria
-- [ ] Provide appropriate recommendations based on student status
-- [ ] Format output clearly with proper sections
-- [ ] Handle boolean input properly
-- [ ] Use proper variable names and comments
 
-## Technical Requirements
-- Use Scanner for all input
-- Use appropriate data types for each variable
-- Use boolean variables to store true/false conditions
-- Use if-else if-else statements for multi-option classifications
-- Use compound boolean expressions for complex eligibility checks
-- Display results in a clear, organized format
-
-## Starter Code Hints
-Your program structure should include:
-1. Input collection section
-2. Academic standing classification method
-3. Class level determination method
-4. Eligibility checking methods
-5. Recommendation generation logic
-6. Formatted output display
 
 ## Submission Requirements
 - Submit your Java file named `StudentInfoSystem.java`
 - Include comprehensive comments explaining your logic
 - Test with both provided examples
 - Ensure all eligibility criteria are correctly implemented
+
+## Hints and Starter Code 
+
+```java
+import java.util.Scanner;
+
+public class App {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("=== Student Information System ===");
+
+        System.out.print("Enter student's name: ");
+        String name = input.nextLine();
+        System.out.print("Enter student's age: ");
+        int age = input.nextInt();
+
+        // TODO: you do the rest.
+        boolean resident = input.nextBoolean();
+        // gpa is a double, credits is an int, resident is a boolean, so is financial aid
+
+        System.out.println();
+
+        System.out.println("=== STUDENT REPORT ===");
+        System.out.println("Name: " + name);
+        // TODO: you can handle printing, age, gpa, credits.
+        if (resident) {
+            System.out.println("Resident: Yes");
+        } else {
+            System.out.println("Resident: No");
+        }
+        // TODO: similar for aid.
+
+        System.out.println();
+
+        int standing = 0;
+        if (gpa >= 3.5) {
+            standing = 4;
+        } else if (gpa >= 2.0) {
+            standing = 3;
+        }// TODO: this for 2 and 1.  use else for 1.
+
+        if (standing == 4) {
+            System.out.println("Academic Standing: Dean's List");
+        } else if (standing == 3) {
+            System.out.println("Academic Standing: Good Standing");
+        } // TODO: do 2 and 1. use else for 1
+
+        int grade = 0;
+        if (credits >= 90) {
+            grade = 12;
+        } else if (credits >= 60) {
+            grade = 11;
+        }// TODO: this for 10 and 9.  use else for 9.
+
+        if (grade == 12) {
+            System.out.println("Class Level: Senior");
+        } else if (grade == 11) {
+            System.out.println("Class Level: Junior");
+        }// TODO: this for 10 and 9.  use else for 9.
+
+        System.out.println();
+
+        System.out.println("=== ELIGIBILITY STATUS ===");
+        if (standing == 4 && grade >= 11 && credits >= 60) {
+            System.out.println("Honor Society: Eligible");
+        } else {
+            System.out.println("Honor Society: Not Eligible");
+        }
+
+        if (credits >= 120 && gpa > 2.0) {
+            System.out.println("Graduation: Eligible");
+        } else {
+            System.out.println("Graduation: Not Eligible (needs 120 more credits)");
+        }
+
+        // TODO: you do the financial renewal.  :)
+
+        
+
+    }
+
+}
+
+```
