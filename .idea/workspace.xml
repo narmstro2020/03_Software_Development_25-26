@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96abf463-397f-41c2-9eeb-75152297af96" name="Changes" comment="Unit 02 - Lesson 03 Finished">
-      <change afterPath="$PROJECT_DIR$/03_Conditional Logic/01_If Statements and Logic/01_Lecture Notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Conditional Logic/01_If Statements and Logic/02_Visual Aid (Flowcharts).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Conditional Logic/01_If Statements and Logic/03_Visual Aid (Truth Tables).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Conditional Logic/01_If Statements and Logic/Assignment/Assignment.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Outline.md" beforeDir="false" afterPath="$PROJECT_DIR$/Outline and Calendar.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_Conditional Logic/02_Switch Statements/01_Lectures Notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_Conditional Logic/02_Switch Statements/02_Visual Aid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_Conditional Logic/02_Switch Statements/Assignment/Assignment.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Nick/WebstormProjects/03_Software_Development_25-26",
+    "last_opened_file_path": "C:/Users/Nick/WebstormProjects/03_Software_Development_25-26/03_Conditional Logic",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
