@@ -18,3 +18,4 @@ Basic Day Converter (Traditional Switch)
    - 7 = Sunday
 4. Display the day name to the user
 5. Handle invalid input (numbers outside 1-7) with a default case
+6. Repeat for enhanced.  
