@@ -1,0 +1,82 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    Java Ternary Conditional Operator
+  </text>
+  
+  <!-- Basic Syntax Section -->
+  <rect x="50" y="70" width="700" height="120" fill="#e8f4fd" stroke="#3498db" stroke-width="2" rx="10"/>
+  <text x="70" y="95" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Basic Syntax:</text>
+  <text x="70" y="120" font-family="Courier, monospace" font-size="18" fill="#e74c3c">condition ? valueIfTrue : valueIfFalse</text>
+  
+  <!-- Arrows pointing to parts -->
+  <line x1="150" y1="140" x2="150" y2="160" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="120" y="175" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">boolean expression</text>
+  
+  <line x1="210" y1="140" x2="210" y2="160" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="195" y="175" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">?</text>
+  
+  <line x1="320" y1="140" x2="320" y2="160" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="285" y="175" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">if true return</text>
+  
+  <line x1="380" y1="140" x2="380" y2="160" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="375" y="175" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">:</text>
+  
+  <line x1="480" y1="140" x2="480" y2="160" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="440" y="175" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">if false return</text>
+  
+  <!-- Flow Chart Section -->
+  <text x="400" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+    Decision Flow
+  </text>
+  
+  <!-- Condition Diamond -->
+  <polygon points="400,240 450,270 400,300 350,270" fill="#f39c12" stroke="#d68910" stroke-width="2"/>
+  <text x="400" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">condition</text>
+  
+  <!-- True Path -->
+  <line x1="450" y1="270" x2="550" y2="270" stroke="#27ae60" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="480" y="260" font-family="Arial, sans-serif" font-size="12" fill="#27ae60" font-weight="bold">true</text>
+  
+  <rect x="550" y="250" width="120" height="40" fill="#2ecc71" stroke="#27ae60" stroke-width="2" rx="5"/>
+  <text x="610" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">valueIfTrue</text>
+  <text x="610" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">is returned</text>
+  
+  <!-- False Path -->
+  <line x1="350" y1="270" x2="250" y2="270" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="280" y="260" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c" font-weight="bold">false</text>
+  
+  <rect x="130" y="250" width="120" height="40" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="5"/>
+  <text x="190" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">valueIfFalse</text>
+  <text x="190" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">is returned</text>
+  
+  <!-- Examples Section -->
+  <rect x="50" y="330" width="700" height="240" fill="#f8f9fa" stroke="#95a5a6" stroke-width="2" rx="10"/>
+  <text x="70" y="355" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Examples:</text>
+  
+  <!-- Example 1 -->
+  <text x="70" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8e44ad">1. Simple Number Comparison:</text>
+  <text x="70" y="400" font-family="Courier, monospace" font-size="12" fill="#2c3e50">int max = (a > b) ? a : b;</text>
+  <text x="70" y="420" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">// Returns the larger of two numbers</text>
+  
+  <!-- Example 2 -->
+  <text x="70" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8e44ad">2. Grade Assignment:</text>
+  <text x="70" y="470" font-family="Courier, monospace" font-size="12" fill="#2c3e50">String grade = (score >= 60) ? "Pass" : "Fail";</text>
+  <text x="70" y="490" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">// Returns "Pass" or "Fail" based on score</text>
+  
+  <!-- Example 3 -->
+  <text x="70" y="520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8e44ad">3. Nested Ternary:</text>
+  <text x="70" y="540" font-family="Courier, monospace" font-size="12" fill="#2c3e50">String size = (num > 100) ? "Large" : (num > 10) ? "Medium" : "Small";</text>
+  <text x="70" y="560" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">// Multiple conditions in sequence</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+    </marker>
+  </defs>
+</svg>
