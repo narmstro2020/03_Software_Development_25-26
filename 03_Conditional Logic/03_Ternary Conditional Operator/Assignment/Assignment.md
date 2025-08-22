@@ -47,7 +47,7 @@ System.out.println("Max of 100 and 50: " + findMaximum(100, 50));
 System.out.println("Max of -5 and -10: " + findMaximum(-5, -10));
 ```
 
-** Starter Code: **
+**Starter Code:**
 ```java 
 import java.util.Scanner;
 
