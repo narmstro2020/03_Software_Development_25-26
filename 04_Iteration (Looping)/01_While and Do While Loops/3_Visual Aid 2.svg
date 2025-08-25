@@ -1,0 +1,105 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#343a40">While vs Do-While Loop Comparison</text>
+  
+  <!-- Dividing line -->
+  <line x1="300" y1="50" x2="300" y2="380" stroke="#dee2e6" stroke-width="2"/>
+  
+  <!-- While Loop Section -->
+  <text x="150" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#007bff">While Loop (Pre-test)</text>
+  
+  <!-- While loop mini flowchart -->
+  <rect x="80" y="90" width="140" height="30" fill="#17a2b8" stroke="#138496" stroke-width="1"/>
+  <text x="150" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Initialize</text>
+  
+  <polygon points="150,130 180,150 150,170 120,150" fill="#ffc107" stroke="#e0a800" stroke-width="1"/>
+  <text x="150" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#343a40">Test?</text>
+  
+  <rect x="80" y="180" width="140" height="30" fill="#6f42c1" stroke="#5a32a3" stroke-width="1"/>
+  <text x="150" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Execute Body</text>
+  
+  <!-- Arrows for while loop -->
+  <line x1="150" y1="120" x2="150" y2="130" stroke="#343a40" stroke-width="1" marker-end="url(#smallarrow)"/>
+  <line x1="150" y1="170" x2="150" y2="180" stroke="#343a40" stroke-width="1" marker-end="url(#smallarrow)"/>
+  <line x1="120" y1="150" x2="50" y2="150" stroke="#dc3545" stroke-width="1" marker-end="url(#smallarrow)"/>
+  <text x="85" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#dc3545">False</text>
+  <text x="35" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#dc3545">END</text>
+  
+  <!-- Back arrow for while loop -->
+  <line x1="80" y1="195" x2="60" y2="195" stroke="#343a40" stroke-width="1"/>
+  <line x1="60" y1="195" x2="60" y2="150" stroke="#343a40" stroke-width="1"/>
+  <line x1="60" y1="150" x2="120" y2="150" stroke="#343a40" stroke-width="1" marker-end="url(#smallarrow)"/>
+  
+  <!-- Do-While Loop Section -->
+  <text x="450" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#28a745">Do-While Loop (Post-test)</text>
+  
+  <!-- Do-while loop mini flowchart -->
+  <rect x="380" y="90" width="140" height="30" fill="#17a2b8" stroke="#138496" stroke-width="1"/>
+  <text x="450" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Initialize</text>
+  
+  <rect x="380" y="130" width="140" height="30" fill="#6f42c1" stroke="#5a32a3" stroke-width="1"/>
+  <text x="450" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Execute Body</text>
+  
+  <polygon points="450,170 480,190 450,210 420,190" fill="#ffc107" stroke="#e0a800" stroke-width="1"/>
+  <text x="450" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#343a40">Test?</text>
+  
+  <!-- Arrows for do-while loop -->
+  <line x1="450" y1="120" x2="450" y2="130" stroke="#343a40" stroke-width="1" marker-end="url(#smallarrow)"/>
+  <line x1="450" y1="160" x2="450" y2="170" stroke="#343a40" stroke-width="1" marker-end="url(#smallarrow)"/>
+  <line x1="480" y1="190" x2="550" y2="190" stroke="#dc3545" stroke-width="1" marker-end="url(#smallarrow)"/>
+  <text x="515" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#dc3545">False</text>
+  <text x="565" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#dc3545">END</text>
+  
+  <!-- Back arrow for do-while loop -->
+  <line x1="420" y1="190" x2="360" y2="190" stroke="#343a40" stroke-width="1"/>
+  <line x1="360" y1="190" x2="360" y2="145" stroke="#343a40" stroke-width="1"/>
+  <line x1="360" y1="145" x2="380" y2="145" stroke="#343a40" stroke-width="1" marker-end="url(#smallarrow)"/>
+  <text x="340" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#28a745">True</text>
+  
+  <!-- Comparison table -->
+  <rect x="50" y="240" width="500" height="130" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="300" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#343a40">Key Differences</text>
+  
+  <!-- Table headers -->
+  <line x1="50" y1="270" x2="550" y2="270" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="200" y1="240" x2="200" y2="370" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="400" y1="240" x2="400" y2="370" stroke="#dee2e6" stroke-width="1"/>
+  
+  <text x="125" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#343a40">Aspect</text>
+  <text x="300" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#007bff">While Loop</text>
+  <text x="475" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#28a745">Do-While Loop</text>
+  
+  <!-- Table rows -->
+  <line x1="50" y1="295" x2="550" y2="295" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="50" y1="315" x2="550" y2="315" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="50" y1="335" x2="550" y2="335" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="50" y1="355" x2="550" y2="355" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Row content -->
+  <text x="125" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#343a40">When tested</text>
+  <text x="300" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Before execution</text>
+  <text x="475" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#343a40">After execution</text>
+  
+  <text x="125" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Min executions</text>
+  <text x="300" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#343a40">0 times</text>
+  <text x="475" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#343a40">1 time</text>
+  
+  <text x="125" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Best for</text>
+  <text x="300" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#343a40">May skip entirely</text>
+  <text x="475" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#343a40">Must run once</text>
+  
+  <text x="125" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Common use</text>
+  <text x="300" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#343a40">Input validation</text>
+  <text x="475" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#343a40">Menus, games</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="smallarrow" markerWidth="6" markerHeight="4" 
+     refX="0" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#343a40" />
+    </marker>
+  </defs>
+</svg>

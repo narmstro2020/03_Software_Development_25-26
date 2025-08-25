@@ -1,0 +1,83 @@
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#343a40">Do-While Loop Flowchart</text>
+  
+  <!-- Start oval -->
+  <ellipse cx="200" cy="70" rx="40" ry="20" fill="#28a745" stroke="#1e7e34" stroke-width="2"/>
+  <text x="200" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">START</text>
+  
+  <!-- Arrow from start to initialize -->
+  <line x1="200" y1="90" x2="200" y2="110" stroke="#343a40" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Initialize variable box -->
+  <rect x="130" y="120" width="140" height="40" fill="#17a2b8" stroke="#138496" stroke-width="2"/>
+  <text x="200" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Initialize Variable</text>
+  <text x="200" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">(e.g., count = 1)</text>
+  
+  <!-- Arrow from initialize to loop body -->
+  <line x1="200" y1="160" x2="200" y2="180" stroke="#343a40" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Loop body box (executed first) -->
+  <rect x="140" y="190" width="120" height="60" fill="#6f42c1" stroke="#5a32a3" stroke-width="2"/>
+  <text x="200" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Execute</text>
+  <text x="200" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Loop Body</text>
+  <text x="200" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">(Always runs once)</text>
+  
+  <!-- Arrow from loop body to update -->
+  <line x1="200" y1="250" x2="200" y2="270" stroke="#343a40" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Update variable box -->
+  <rect x="140" y="280" width="120" height="40" fill="#fd7e14" stroke="#e8590c" stroke-width="2"/>
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Update Variable</text>
+  <text x="200" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">(e.g., count++)</text>
+  
+  <!-- Arrow from update to condition -->
+  <line x1="200" y1="320" x2="200" y2="340" stroke="#343a40" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Condition diamond -->
+  <polygon points="200,350 250,380 200,410 150,380" fill="#ffc107" stroke="#e0a800" stroke-width="2"/>
+  <text x="200" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#343a40">Condition</text>
+  <text x="200" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#343a40">True?</text>
+  
+  <!-- Yes arrow from condition back to loop body -->
+  <line x1="150" y1="380" x2="80" y2="380" stroke="#343a40" stroke-width="2"/>
+  <line x1="80" y1="380" x2="80" y2="220" stroke="#343a40" stroke-width="2"/>
+  <line x1="80" y1="220" x2="140" y2="220" stroke="#343a40" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="65" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#28a745">Yes</text>
+  
+  <!-- No arrow from condition to end -->
+  <line x1="250" y1="380" x2="320" y2="380" stroke="#343a40" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="285" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#dc3545">No</text>
+  
+  <!-- End oval -->
+  <ellipse cx="350" cy="380" rx="30" ry="20" fill="#dc3545" stroke="#c82333" stroke-width="2"/>
+  <text x="350" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">END</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#343a40" />
+    </marker>
+  </defs>
+  
+  <!-- Key difference highlight -->
+  <rect x="10" y="50" width="180" height="80" fill="#fff3cd" stroke="#ffeaa7" stroke-width="2" rx="5"/>
+  <text x="100" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#856404">Key Difference:</text>
+  <text x="100" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#856404">Loop body executes</text>
+  <text x="100" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#856404">BEFORE condition check</text>
+  <text x="100" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#856404">Guaranteed 1+ execution</text>
+  
+  <!-- Example code box -->
+  <rect x="10" y="340" width="180" height="140" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="5"/>
+  <text x="100" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#343a40">Example Code:</text>
+  <text x="20" y="380" font-family="Courier New, monospace" font-size="10" fill="#343a40">int count = 1;</text>
+  <text x="20" y="395" font-family="Courier New, monospace" font-size="10" fill="#343a40">do {</text>
+  <text x="30" y="410" font-family="Courier New, monospace" font-size="10" fill="#343a40">System.out.println(count);</text>
+  <text x="30" y="425" font-family="Courier New, monospace" font-size="10" fill="#343a40">count++;</text>
+  <text x="20" y="440" font-family="Courier New, monospace" font-size="10" fill="#343a40">} while (count &lt;= 5);</text>
+  <text x="20" y="460" font-family="Arial, sans-serif" font-size="9" fill="#6c757d">Output: 1 2 3 4 5</text>
+</svg>
