@@ -6,7 +6,6 @@
 - [2. Do While Loops](#2-do-while-loops)
 - [3. Flowcharting Loops](#3-flowcharting-loops)
 - [Vocabulary](#vocabulary)
-- [Coding Assignments](#coding-assignments)
 - [Summary](#summary)
 - [Additional Resources](#additional-resources)
 
@@ -409,19 +408,7 @@ When designing loops, ask yourself:
 - **Increment**: Increasing a variable's value (usually by 1)
 - **Decrement**: Decreasing a variable's value (usually by 1)
 
----
 
-## Coding Assignments
-[Back to Top](#java-while-and-do-while-loops---lecture-notes)
-
-### Assignment 1: Password Validator
-[Assignment 1 Template](Assignments/Assignment.md) | [Assignment 1 Solution](assignment1_solution.md)
-
-### Assignment 2: Sum Calculator
-[Assignment 2 Template](assignment2_template.md) | [Assignment 2 Solution](assignment2_solution.md)
-
-### Assignment 3: Interactive Quiz
-[Assignment 3 Template](assignment3_template.md) | [Assignment 3 Solution](assignment3_solution.md)
 
 ---
 
