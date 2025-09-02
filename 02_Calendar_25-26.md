@@ -1,0 +1,47 @@
+| Unit # |                Unit Name                 | Lesson # |                            Lesson Name                             |     Black Day     |     Gold Day      | Block # |
+|:------:|:----------------------------------------:|:--------:|:------------------------------------------------------------------:|:-----------------:|:-----------------:|:-------:|
+|   1    |               Java Basics                |    1     |                      Welcome and Introduction                      | Fri, Jul 25, 2025 | Mon, Jul 28, 2025 |    1    |
+|   1    |               Java Basics                |    2     |                         The Basics of Java                         | Tue, Jul 29, 2025 | Wed, Jul 30, 2025 |    2    |
+|   1    |               Java Basics                |    3     |                          More Java Basics                          | Thu, Jul 31, 2025 | Fri, Aug 1, 2025  |    3    |
+|   1    |               Java Basics                |    3     |                          More Java Basics                          | Mon, Aug 4, 2025  | Tue, Aug 5, 2025  |    4    |
+|   2    |      Variables, Operators, and Math      |    1     |                  Arithmetic and String Operators                   | Wed, Aug 6, 2025  | Thu, Aug 7, 2025  |    5    |
+|   -    |                    -                     |    -     |                        (Unplanned Absence)                         | Fri, Aug 8, 2025  |         -         |    6    |   
+|   2    |      Variables, Operators, and Math      |    2     |                     Random and Making Methods                      | Tue, Aug 12, 2025 | Wed, Aug 13, 2025 |    7    |
+|   2    |      Variables, Operators, and Math      |    3     |                              Booleans                              | Thu, Aug 14, 2025 | Fri, Aug 15, 2025 |    8    |  
+|   3    |            Conditional Logic             |    1     |                            If Statement                            | Mon, Aug 18, 2025 | Tue, Aug 19, 2025 |    9    |
+|   3    |            Conditional Logic             |    2     |                         Switch Statements                          | Wed, Aug 20, 2025 | Thu, Aug 21, 2025 |   10    |
+|   3    |            Conditional Logic             |    3     |                    Ternary Conditional Operator                    | Fri, Aug 22, 2025 | Mon, Aug 25, 2025 |   11    |
+|   4    |           Iteration (Looping)            |    1     |                      While and Do While Loops                      | Tue, Aug 26, 2025 | Wed, Aug 27, 2025 |   12    |
+|   4    |           Iteration (Looping)            |    1     |                      While and Do While Loops                      | Thu, Aug 28, 2025 | Fri, Aug 29, 2025 |   13    |
+|   4    |           Iteration (Looping)            |    2     |                             For Loops                              | Wed, Sep 3, 2025  | Thu, Sep 4, 2025  |   14    |
+|   5    | Object Oriented Programming (OOP) Part 1 |    1     |    Classes, Objects, Initializer Blocks, References, and Purity    | Fri, Sep 5, 2025  | Mon, Sep 8, 2025  |   15    |
+|   5    | Object Oriented Programming (OOP) Part 1 |    2     | Object Instances, Constructors, Stack, and Heap and Static Methods | Tue, Sep 9, 2025  | Wed, Sep 10, 2025 |   16    |
+|   5    | Object Oriented Programming (OOP) Part 1 |    3     |                        Method Polymorphism                         | Thu, Sep 11, 2025 | Fri, Sep 12, 2025 |   17    |
+|   5    | Object Oriented Programming (OOP) Part 1 |    4     |                        Equality of Objects                         | Mon, Sep 15, 2025 | Tue, Sep 16, 2025 |   18    |
+|   5    | Object Oriented Programming (OOP) Part 1 |    5     |                Public, Private, and Package-Private                | Wed, Sep 17, 2025 | Thu, Sep 18, 2025 |   19    |
+|   5    | Object Oriented Programming (OOP) Part 1 |    6     |                           Inner Classes                            | Fri, Sep 19, 2025 | Mon, Sep 22, 2025 |   20    |
+|   5    | Object Oriented Programming (OOP) Part 1 |    7     |               More on Encapsulation and Dependencies               | Tue, Sep 23, 2025 | Wed, Sep 24, 2025 |   21    |
+|   5    | Object Oriented Programming (OOP) Part 1 |    8     |                        UML Diagrams Part 1                         | Thu, Sep 25, 2025 | Fri, Sep 26, 2025 |   22    |
+|   6    |              Arrays in Java              |    1     |                         Java Array Basics                          | Mon, Sep 29, 2025 | Tue, Sep 30, 2025 |   23    |
+|   6    |              Arrays in Java              |    2     |                 Using Arrays and Enhanced For Loop                 | Wed, Oct 1, 2025  | Thu, Oct 2, 2025  |   24    |
+|   7    |             JavaFX GUI Intro             |    1     |                       Java FX Basics Part 1                        | Mon, Oct 20, 2025 | Tue, Oct 21, 2025 |   25    |                                                                         
+|   7    |             JavaFX GUI Intro             |    2     |                       Java FX Basics Part 2                        | Thu, Oct 23 2025  | Fri, Oct 24, 2025 |   26    |                                                                                
+|   8    |         Game Project Milestone 1         |    1     |                         Game Project Setup                         | Mon, Oct 27, 2025 | Tue, Oct 28, 2025 |   27    |                                                                             
+|   8    |         Game Project Milestone 1         |    2     |                    Working Together on The Game                    | Wed, Oct 29, 2025 | Thu, Oct 30, 2025 |   28    |                                                             
+|   8    |         Game Project Milestone 1         |    3     |                   Game Project Part 1 Finishing                    | Fri, Oct 31, 2025 | Mon, Nov 3, 2025  |   29    |                                                                                  
+|   9    |  OOP Part 2: Inheritance, super, Enums   |    1     |       Inheritance, Parent (Base), Child (Sub) Classes, Super       | Wed, Nov 5, 2025  | Thu, Nov 6, 2025  |   30    |                                                            
+|   9    |  OOP Part 2: Inheritance, super, Enums   |    2     |                          Abstract Classes                          | Fri, Nov 7, 2025  | Mon, Nov 10, 2025 |   31    |                                                         
+|   9    |  OOP Part 2: Inheritance, super, Enums   |    3     |                             Interfaces                             | Tue, Nov 11, 2025 | Wed, Nov 12, 2025 |   32    |
+|   9    |  OOP Part 2: Inheritance, super, Enums   |    4     |                   Enums and Records, UML Part 2                    | Thu, Nov 13, 2025 | Fri, Nov 14, 2025 |   33    |                                                                                     
+|   10   |            Exception Handling            |    1     |              try, catch, finally, try with resources               | Mon, Nov 17, 2025 | Tue, Nov 18, 2025 |   34    |                                                                                   
+|   10   |            Exception Handling            |    2     |                       Custom Exception Types                       | Wed, Nov 19, 2025 | Thu, Nov 20, 2025 |   35    |                                                                                
+|   11   |     Generics, Arraylist, Collections     |    1     |                      Generics and Arraylists                       | Fri, Nov 21, 2025 | Mon, Nov 24, 2025 |   36    |
+|   11   |     Generics, Arraylist, Collections     |    2     |                  Collection Types (Set, Map, etc)                  | Tue, Nov 25, 2025 | Mon, Dec 1, 2025  |   37    |
+|   12   |         Game Project Milestone 2         |    1     |                         Game Project Setup                         | Tue, Dec 2, 2025  | Wed, Dec 3, 2025  |   38    |                                                                                      
+|   12   |         Game Project Milestone 2         |    2     |                       Game Project Work Time                       | Thu, Dec 4, 2025  | Fri, Dec 5, 2025  |   39    |                                                                                    
+|   12   |         Game Project Milestone 2         |    3     |                       Game Project Work Time                       | Mon, Dec 8, 2025  | Tue, Dec 9, 2025  |   40    |                                                                                 
+|   12   |         Game Project Milestone 2         |    4     |                       Game Project Work Time                       | Wed, Dec 10, 2025 | Thu, Dec 11, 2025 |   41    |
+|   12   |         Game Project Milestone 2         |    5     |                      Game Project Submission                       | Fri, Dec 12, 2025 | Mon, Dec 15, 2025 |   42    |
+|   -    |                    -                     |    -     |                              Flex Day                              | Tue, Dec 16, 2025 | Thu, Dec 18, 2025 |   43    |
+|   -    |                    -                     |    -     |                              Flex Day                              | Wed, Dec 17, 2025 | Fri, Dec 19, 2025 |   44    |
+ 
