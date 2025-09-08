@@ -52,11 +52,13 @@ A **class** is like a blueprint or template that describes what an object should
 
 ```java
 public class ClassName {
+
     // Fields (variables that belong to the class)
-    
+
+    // Constructors (special methods for creating objects)
+
     // Methods (functions that belong to the class)
     
-    // Constructors (special methods for creating objects)
 }
 ```
 
