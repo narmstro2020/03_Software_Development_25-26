@@ -47,8 +47,8 @@ Create an initializer block that:
 
 ##### Utility Methods:
 - `scale(double factor)` - multiplies both dimensions by factor (validate factor > 0)
-- `getInfo()` - returns detailed formatted string with all measurements
-- `toString()` - returns concise string representation
+- `getInfo()` - returns detailed formatted string with all measurements (length, width, units, id, area, perimeter) formatted nicely
+- `toString()` - returns concise string representation (length and width and units and id) formated nicely
 
 ### Part 2: Create the Demo Class
 Create a file called `RectangleDemo.java` with a main method that demonstrates:
