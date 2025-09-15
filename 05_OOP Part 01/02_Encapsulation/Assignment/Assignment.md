@@ -61,6 +61,111 @@ Create a file called `RectangleDemo.java` with a main method that demonstrates:
 5. **Scaling Testing**: Scale rectangles by different factors
 6. **Edge Case Testing**: Test with very small and very large values
 
+## Starter Code for Part 1
+
+```java
+public class Rectangle {
+
+    // fields
+    private double length;
+    private double width;
+    private String id;
+    private String units;
+
+    // init block
+    {
+        int numId = (int) ((Math.random() * (9999 - 1000 + 1)) + 1000);
+        id = String.valueOf(numId);
+    }
+
+    // constructor overloads
+    // signature Rectangle(double, double, String)
+    public Rectangle(double length, double width, String units) {
+        this.length = length;
+        this.width = width;
+        this.units = units;
+    }
+
+    // signature Rectangle(double, double)
+    public Rectangle(double length, double width) {
+        // TODO: Same thing for length and width as the full constructor
+        this.units = "units";
+    }
+
+    // signature Rectangle(double, String)
+    public Rectangle(double sideLength, String units) {
+        this(sideLength, sideLength, units);
+    }
+
+    // signature Rectangle()
+    public Rectangle() {
+        // TODO: assign this.width and this.length to 1 and this.units to "units"
+    }
+
+    // methods.  me personally.  put my getters and setters first and then the other methods.
+    public double getLength() {
+        return length;
+    }
+
+    public void setLength(double length) {
+        if (length > 0) {
+            this.length = length;
+        } else {
+            System.out.println("Invalid length.  Length should be greater than 0.");
+            System.out.println("Length not Set");
+        }
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width) {
+        // TODO: same as length.
+    }
+
+    public String getId() {
+        return id;
+    }
+
+
+    public String getUnits() {
+        return units;
+    }
+
+    public void setUnits(String units) {
+        if (units != null && !units.isEmpty()) {
+            this.units = units;
+        } else {
+            System.out.println("Invalid units.  Units shouldn't be empty or null");
+            System.out.println("Units not Set");
+        }
+    }
+
+    // other methods (behavior methods or property methods etc.  ad nauseum.
+    public double calculateArea() {
+        return length * width;
+    }
+
+    public double calculatePerimeter() {
+        // TODO: you do.  Return the calculated perimeter.  2 * l + 2 * w.
+        return 0.0; // TODO remove when finished.
+    }
+
+    // TODO: you do the calculateDiagonal() method,
+
+    public boolean isSquare() {
+        return length == width;
+    }
+
+    // TODO: continue with rest of assignment
+
+
+
+}
+
+```
+
 ## Sample Output
 Your program should produce output similar to this:
 
