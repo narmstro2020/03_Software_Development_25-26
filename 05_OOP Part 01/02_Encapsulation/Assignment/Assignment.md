@@ -157,11 +157,27 @@ public class Rectangle {
         return length == width;
     }
 
-    // TODO: continue with rest of assignment
+    // TODO: calculateDiagonal() method
+
+    public boolean isLargerThan(Rectangle other){
+        double thisArea = calculateArea();
+        double otherArea = other.calculateArea();
+        return thisArea > otherArea;
+    }
+
+    // TODO: isSameSize()
+
+    // TODO: scale(factor).  scale width and height using factor.  Hint:  this.length *= factor
+
+    // TODO: getInfo()
 
 
-
+    @Override
+    public String toString() {
+        return "Rectangle{width=" + width + ", length=" + length + ", id=" + id + ", units=" + units + "}";
+    }
 }
+
 
 ```
 
