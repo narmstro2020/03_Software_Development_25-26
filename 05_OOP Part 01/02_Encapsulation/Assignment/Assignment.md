@@ -241,30 +241,7 @@ Testing invalid scale factor: Invalid scale factor provided
 - Use `Math.round(value * 100.0) / 100.0` for rounding
 - Use `Math.abs(a - b) < 0.001` for comparing doubles
 
-## Grading Criteria
 
-### Rectangle Class (75 points)
-- **Instance Variables (10 points)**: All 4 variables properly declared as private
-- **Initializer Block (10 points)**: Correctly generates ID and sets defaults
-- **Constructors (15 points)**: All 4 constructors implemented correctly
-- **Getters/Setters (15 points)**: All accessor methods with proper validation
-- **Calculation Methods (15 points)**: Area, perimeter, diagonal, isSquare work correctly
-- **Comparison Methods (10 points)**: Size comparison methods work accurately
-
-### RectangleDemo Class (15 points)
-- **Comprehensive Testing (10 points)**: Tests all major functionality including edge cases
-- **Clear Output (5 points)**: Well-formatted, informative output
-
-### Code Quality (10 points)
-- **Comments and Documentation**: Clear explanations of complex logic
-- **Error Handling**: Proper validation with helpful error messages
-- **Code Organization**: Well-structured, readable code following conventions
-
-## Advanced Features (Optional - Extra Credit)
-- Add a `rotate()` method that swaps length and width
-- Create a `fitInside(Rectangle container)` method that checks if rectangle fits
-- Add area conversion methods between different units
-- Implement a `resize(double newArea)` method that maintains aspect ratio
 
 ## Common Challenges and Tips
 
