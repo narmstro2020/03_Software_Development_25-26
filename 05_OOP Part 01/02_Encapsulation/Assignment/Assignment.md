@@ -221,10 +221,6 @@ Original RECT1234: 5.0 x 3.0 inches
 After scaling by 2.0: 10.0 x 6.0 inches
 New area: 60.0 square inches
 
-=== Validation Tests ===
-Testing invalid length: Invalid length provided
-Testing invalid width: Invalid width provided
-Testing invalid scale factor: Invalid scale factor provided
 ```
 
 ## Detailed Requirements
