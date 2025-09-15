@@ -44,7 +44,6 @@ Create an initializer block that:
 ##### Comparison Methods:
 - `isLargerThan(Rectangle other)` - compares areas
 - `isSameSize(Rectangle other)` - compares areas with small tolerance for doubles
-- `compareDimensions(Rectangle other)` - returns String describing size relationship
 
 ##### Utility Methods:
 - `scale(double factor)` - multiplies both dimensions by factor (validate factor > 0)
