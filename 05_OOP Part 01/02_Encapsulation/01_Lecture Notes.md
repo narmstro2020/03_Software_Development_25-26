@@ -1281,24 +1281,4 @@ public class StudentDemo {
 
 ---
 
-## Assignments
-[⬆ Back to Top](#table-of-contents)
-
-### Assignment 1: Library Book System
-Create a `Book` class with proper encapsulation and test it thoroughly.
-- [Assignment 1 Template](assignment-1-template.md)
-- [Assignment 1 Solution](assignment-1-solution.md)
-
-### Assignment 2: Rectangle Calculator
-Build a `Rectangle` class with area and perimeter calculations, including input validation.
-- [Assignment 2 Template](assignment-2-template.md)
-- [Assignment 2 Solution](assignment-2-solution.md)
-
-### Assignment 3: Student Grade Tracker
-Develop a complete `Student` class with grade management and GPA calculation.
-- [Assignment 3 Template](assignment-3-template.md)
-- [Assignment 3 Solution](assignment-3-solution.md)
-
----
-
 *Happy coding! Remember to practice these concepts by creating your own classes and experimenting with different designs.*

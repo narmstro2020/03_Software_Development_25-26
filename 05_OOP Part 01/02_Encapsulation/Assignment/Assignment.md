@@ -44,12 +44,11 @@ Create an initializer block that:
 ##### Comparison Methods:
 - `isLargerThan(Rectangle other)` - compares areas
 - `isSameSize(Rectangle other)` - compares areas with small tolerance for doubles
-- `compareDimensions(Rectangle other)` - returns String describing size relationship
 
 ##### Utility Methods:
 - `scale(double factor)` - multiplies both dimensions by factor (validate factor > 0)
-- `getInfo()` - returns detailed formatted string with all measurements
-- `toString()` - returns concise string representation
+- `getInfo()` - returns detailed formatted string with all measurements (length, width, units, id, area, perimeter) formatted nicely
+- `toString()` - returns concise string representation (length and width and units and id) formated nicely
 
 ### Part 2: Create the Demo Class
 Create a file called `RectangleDemo.java` with a main method that demonstrates:
@@ -60,6 +59,127 @@ Create a file called `RectangleDemo.java` with a main method that demonstrates:
 4. **Comparison Testing**: Compare rectangles of different sizes
 5. **Scaling Testing**: Scale rectangles by different factors
 6. **Edge Case Testing**: Test with very small and very large values
+
+## Starter Code for Part 1
+
+```java
+public class Rectangle {
+
+    // fields
+    private double length;
+    private double width;
+    private String id;
+    private String units;
+
+    // init block
+    {
+        int numId = (int) ((Math.random() * (9999 - 1000 + 1)) + 1000);
+        id = String.valueOf(numId);
+    }
+
+    // constructor overloads
+    // signature Rectangle(double, double, String)
+    public Rectangle(double length, double width, String units) {
+        this.length = length;
+        this.width = width;
+        this.units = units;
+    }
+
+    // signature Rectangle(double, double)
+    public Rectangle(double length, double width) {
+        // TODO: Same thing for length and width as the full constructor
+        this.units = "units";
+    }
+
+    // signature Rectangle(double, String)
+    public Rectangle(double sideLength, String units) {
+        this(sideLength, sideLength, units);
+    }
+
+    // signature Rectangle()
+    public Rectangle() {
+        // TODO: assign this.width and this.length to 1 and this.units to "units"
+    }
+
+    // methods.  me personally.  put my getters and setters first and then the other methods.
+    public double getLength() {
+        return length;
+    }
+
+    public void setLength(double length) {
+        if (length > 0) {
+            this.length = length;
+        } else {
+            System.out.println("Invalid length.  Length should be greater than 0.");
+            System.out.println("Length not Set");
+        }
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width) {
+        // TODO: same as length.
+    }
+
+    public String getId() {
+        return id;
+    }
+
+
+    public String getUnits() {
+        return units;
+    }
+
+    public void setUnits(String units) {
+        if (units != null && !units.isEmpty()) {
+            this.units = units;
+        } else {
+            System.out.println("Invalid units.  Units shouldn't be empty or null");
+            System.out.println("Units not Set");
+        }
+    }
+
+    // other methods (behavior methods or property methods etc.  ad nauseum.
+    public double calculateArea() {
+        return length * width;
+    }
+
+    public double calculatePerimeter() {
+        // TODO: you do.  Return the calculated perimeter.  2 * l + 2 * w.
+        return 0.0; // TODO remove when finished.
+    }
+
+    // TODO: you do the calculateDiagonal() method,
+
+    public boolean isSquare() {
+        return length == width;
+    }
+
+    // TODO: calculateDiagonal() method
+
+    public boolean isLargerThan(Rectangle other){
+        double thisArea = calculateArea();
+        double otherArea = other.calculateArea();
+        return thisArea > otherArea;
+    }
+
+    // TODO: isSameSize()
+
+    // TODO: scale(factor).  scale width and height using factor.  Hint:  this.length *= factor
+
+    // TODO: getInfo()
+
+
+    @Override
+    public String toString() {
+        return "Rectangle{width=" + width + ", length=" + length + ", id=" + id + ", units=" + units + "}";
+    }
+}
+
+
+```
 
 ## Sample Output
 Your program should produce output similar to this:
@@ -101,10 +221,6 @@ Original RECT1234: 5.0 x 3.0 inches
 After scaling by 2.0: 10.0 x 6.0 inches
 New area: 60.0 square inches
 
-=== Validation Tests ===
-Testing invalid length: Invalid length provided
-Testing invalid width: Invalid width provided
-Testing invalid scale factor: Invalid scale factor provided
 ```
 
 ## Detailed Requirements
@@ -136,30 +252,7 @@ Testing invalid scale factor: Invalid scale factor provided
 - Use `Math.round(value * 100.0) / 100.0` for rounding
 - Use `Math.abs(a - b) < 0.001` for comparing doubles
 
-## Grading Criteria
 
-### Rectangle Class (75 points)
-- **Instance Variables (10 points)**: All 4 variables properly declared as private
-- **Initializer Block (10 points)**: Correctly generates ID and sets defaults
-- **Constructors (15 points)**: All 4 constructors implemented correctly
-- **Getters/Setters (15 points)**: All accessor methods with proper validation
-- **Calculation Methods (15 points)**: Area, perimeter, diagonal, isSquare work correctly
-- **Comparison Methods (10 points)**: Size comparison methods work accurately
-
-### RectangleDemo Class (15 points)
-- **Comprehensive Testing (10 points)**: Tests all major functionality including edge cases
-- **Clear Output (5 points)**: Well-formatted, informative output
-
-### Code Quality (10 points)
-- **Comments and Documentation**: Clear explanations of complex logic
-- **Error Handling**: Proper validation with helpful error messages
-- **Code Organization**: Well-structured, readable code following conventions
-
-## Advanced Features (Optional - Extra Credit)
-- Add a `rotate()` method that swaps length and width
-- Create a `fitInside(Rectangle container)` method that checks if rectangle fits
-- Add area conversion methods between different units
-- Implement a `resize(double newArea)` method that maintains aspect ratio
 
 ## Common Challenges and Tips
 
