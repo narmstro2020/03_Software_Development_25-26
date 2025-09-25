@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96abf463-397f-41c2-9eeb-75152297af96" name="Changes" comment="Unit 05 Lesson 02">
+      <change afterPath="$PROJECT_DIR$/05_OOP Part 01/03_Inner Classes/Activity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/narmstro/Development/WebStormProjects/03_Software_Development_25-26/05_OOP Part 01&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/narmstro/Development/WebStormProjects/03_Software_Development_25-26/05_OOP Part 01/03_Inner Classes&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -56,13 +57,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\narmstro\Development\WebStormProjects\03_Software_Development_25-26\05_OOP Part 01\03_Inner Classes" />
       <recent name="C:\Users\narmstro\Development\WebStormProjects\03_Software_Development_25-26\05_OOP Part 01" />
       <recent name="C:\Users\narmstro\Development\WebStormProjects\03_Software_Development_25-26\05_OOP Part 01\01_Classes and Objects\Assignment" />
       <recent name="C:\Users\narmstro\Development\WebStormProjects\03_Software_Development_25-26" />
       <recent name="C:\Users\Nick\WebstormProjects\03_Software_Development_25-26" />
-      <recent name="C:\Users\Nick\WebstormProjects\03_Software_Development_25-26\02_Variables, Operators, and Math\03_Booleans" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\narmstro\Development\WebStormProjects\03_Software_Development_25-26\05_OOP Part 01\02_Encapsulation\Assignment2" />
+      <recent name="C:\Users\narmstro\Development\WebStormProjects\03_Software_Development_25-26\05_OOP Part 01\02_Encapsulation" />
       <recent name="C:\Users\Nick\WebstormProjects\03_Software_Development_25-26\03_Conditional Logic\01_If Statements and Logic\Assignment" />
     </key>
   </component>
@@ -94,6 +97,9 @@
       <workItem from="1757082655851" duration="2000" />
       <workItem from="1757340765313" duration="218000" />
       <workItem from="1757588142493" duration="48000" />
+      <workItem from="1758288838618" duration="270000" />
+      <workItem from="1758812016261" duration="203000" />
+      <workItem from="1758817012664" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="Unit 02 - Lesson 02">
       <option name="closed" value="true" />
@@ -127,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757340943449</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Unit 05 Lesson 02">
+      <option name="closed" value="true" />
+      <created>1758288980458</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758288980458</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
