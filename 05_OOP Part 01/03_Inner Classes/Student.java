@@ -3,17 +3,14 @@
  * Demonstrates how inner classes can access outer class private fields
  */
 public class Student {
-    // TODO: Add private fields for the Student class
-    // TODO: private String name;
-    // TODO: private int studentID;
-    // TODO: private double GPA;
+    private String name;
+    private int studentID;
+    private double GPA;
 
-    // TODO: Create constructor that takes name and studentID parameters
-    // TODO: Set the name and studentID from parameters
-    // TODO: Initialize GPA to 0.0
     public Student(String name, int studentID) {
-        // TODO: Implement constructor
-
+        this.name = name;
+        this.studentID = studentID;
+        GPA = 0.0;
     }
 
     // TODO: Create displayInfo() method that prints student information
@@ -36,16 +33,12 @@ public class Student {
      */
     // TODO: Create inner class called GradeBook
     class GradeBook {
-        // TODO: Add private fields for the GradeBook class
-        // TODO: private double[] grades;  // Array to store up to 5 grades
-        // TODO: private int gradeCount;   // Track how many grades have been added
+        private double[] grades;
+        private int gradeCount;
 
-        // TODO: Create constructor for GradeBook
-        // TODO: Initialize grades array with size 5
-        // TODO: Set gradeCount to 0
         public GradeBook() {
-            // TODO: Implement GradeBook constructor
-
+            grades = new double[5];
+            gradeCount = 0;
         }
 
         // TODO: Create addGrade(double grade) method

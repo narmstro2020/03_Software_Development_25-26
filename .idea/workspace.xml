@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96abf463-397f-41c2-9eeb-75152297af96" name="Changes" comment="Unit 05 Lesson 02">
-      <change afterPath="$PROJECT_DIR$/05_OOP Part 01/03_Inner Classes/Activity.java" afterDir="false" />
+    <list default="true" id="96abf463-397f-41c2-9eeb-75152297af96" name="Changes" comment="Unit 05 Lesson 03">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_OOP Part 01/03_Inner Classes/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_OOP Part 01/03_Inner Classes/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +100,7 @@
       <workItem from="1758288838618" duration="270000" />
       <workItem from="1758812016261" duration="203000" />
       <workItem from="1758817012664" duration="626000" />
+      <workItem from="1758820422085" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="Unit 02 - Lesson 02">
       <option name="closed" value="true" />
@@ -141,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758288980458</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Unit 05 Lesson 03">
+      <option name="closed" value="true" />
+      <created>1758820496090</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758820496090</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +161,7 @@
     <MESSAGE value="calendar and outline updates" />
     <MESSAGE value="Unit 05 Lesson 01" />
     <MESSAGE value="Unit 05 Lesson 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit 05 Lesson 02" />
+    <MESSAGE value="Unit 05 Lesson 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit 05 Lesson 03" />
   </component>
 </project>
