@@ -4,6 +4,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        
+        // TODO 0: Make an enum named Subject with values of Math, English, Japanese, Chemistry, and Software Development
+        // TODO 0.5: make an enum named GradeLevel with values of Freshmen, Sophomore, Junior, and Senior
+        // TODO: 0.75:  replace the int gradeLevel in Student with the enum GradeLevel
+        // TODO: 0.99: replace the String subject in Teacher with the enum Subject
+        
         // TODO 1: Create two Students and one Teacher with realistic data.
         // Student s1 = ...
         // Student s2 = ...
@@ -13,14 +19,6 @@ public class Main {
 
         // TODO 3: Create Enrollments for all persons using Status.ACTIVE and today's date.
         // Print each enrollment summary.
-
-        // TODO 4: Put all Person references into a List<Person> and
-        // loop polymorphically calling present() and fullName().
-
-        // TODO 5: Change one enrollment to Status.SUSPENDED and
-        // print a message that uses a switch over Status with a custom text per case.
-
-        // TODO 6: (Validation) Try making a ContactInfo with a bad email and
-        // catch the IllegalArgumentException; print “Invalid contact rejected”.
+        
     }
 }
